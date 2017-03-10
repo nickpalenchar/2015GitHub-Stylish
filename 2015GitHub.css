@@ -1,0 +1,34 @@
+div.header {
+    background-color: #f6f5f7;
+    border-bottom: 1px solid #e6e5e6;
+}
+a.header-logo-invertocat, .header-logo-invertocat:hover {
+	color: #696869;
+}
+.form-control, .form-select {
+    background-color: white !important;
+}
+div.header .header-search-scope {
+    color: inherit;
+}
+
+.header-nav-link {
+    color: #696869;
+}
+
+.header .header-search-scope {
+    border-right-color: transparent
+}
+
+.header .header-search-wrapper.focus .header-search-scope, .header .header-search-wrapper .header-search-scope, .header-nav-link:hover {
+    color: #696869;
+    border-right-color: transparent;
+}
+
+.header-nav-link:focus, .header-nav-link:hover .dropdown-caret, .header-nav-link:focus .dropdown-caret {
+    border-top-color: #696869;
+}
+
+.header .header-search-input {
+    color: black;
+}
